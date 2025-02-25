@@ -75,7 +75,7 @@ const getMonthlySales = async () => {
         smooth: true,
         type: 'line',
         data: res.data.map((v) => v.estimate),
-        animationDuration: 2800,
+        animationDuration: 9000,
         animationEasing: 'cubicInOut'
       },
       {
